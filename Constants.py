@@ -1,0 +1,17 @@
+import os
+import shutil
+
+Image_size = (448, 448)
+ROOT = './dataset/DRIVE'
+BATCHSIZE_PER_CARD = 16
+
+TOTAL_EPOCH = 10000
+INITAL_EPOCH_LOSS = 10000
+NUM_EARLY_STOP = 40
+NUM_UPDATE_LR = 30
+NUM_CHANNELS=3
+lmbda=1
+IS_LOAD_WEIGHT=False
+BINARY_CLASS = 1
+lr=2e-4
+beta=0.5
